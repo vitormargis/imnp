@@ -13,8 +13,6 @@ export default function Home() {
       <main>
         <Header title="IMNP" />
       </main>
-
-      <Footer />
     </div>
   );
 }
