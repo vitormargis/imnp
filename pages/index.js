@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="IMNP" />
+        <img src="/imnp.jpg" alt="imnp" />
       </main>
     </div>
   );
