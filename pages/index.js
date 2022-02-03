@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <img src="/imnp.jpg" alt="imnp" />
+        <img src="/imnp.jpg" style={{ maxWidth: "100%" }} alt="imnp" />
       </main>
     </div>
   );
