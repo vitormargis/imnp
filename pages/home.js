@@ -24,7 +24,7 @@ const Home = () => (
     <Main title="Appion React Gatsby nextjs landing">
       <GlobalStyle />
       <Navigation />
-      <Banner />
+      {/* <Banner /> */}
       {/* <About />
       <Pricing />
       <Features />
