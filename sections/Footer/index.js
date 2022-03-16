@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Container, Row, Col } from "reusecore/Layout";
 
 import { FiMail, FiPhoneCall } from "react-icons/fi";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 import logo from "assets/images/app/footer/footer-logo.png";
 import particleOne from "assets/images/app/footer/footer-particle.png";
