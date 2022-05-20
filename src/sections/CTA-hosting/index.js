@@ -6,40 +6,43 @@ import VintageBox from "../../reusecore/VintageBox";
 
 import CTASectionWrapper from "./CTASection.style";
 
-import image1 from "../../assets/images/hosting/CTA/01.png";
-import Particle1 from "../../assets/images/hosting/vintage/01.png";
+import image1 from "../../assets/images/hosting/doar.png";
 
 const CTAHosting = () => {
   return (
-    <CTASectionWrapper>
-      <Container>
-        <Row Vcenter={true}>
-          <Col xs={12} sm={6} lg={5}>
-            <div className="CTA-content">
-              <h2>
-                Grow Your Bussiness <br />
-                With us
-              </h2>
-              <p>
-                Lorem ipsum, or lipsum as it is sometimes known, is dummy text
-                placeholder text commonly used to demonstrate the visual form of
-                a document or a typeface without replying out print, graphic or
-                web designs. The passage is attributed to typesetter in the 15th
-                century.
-              </p>
-              <VintageBox right={true} vintageTwo={true} position="relative">
-                <Button>Learn More</Button>
-              </VintageBox>
-            </div>
-          </Col>
-          <Col xs={12} sm={6} lg={7}>
-            <div className="CTA-img">
-              <img src={image1} alt="img" />
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    </CTASectionWrapper>
+    <div id="como-doar">
+      <CTASectionWrapper>
+        <Container>
+          <Row Vcenter={true}>
+            <Col xs={12} sm={6} lg={5}>
+              <div className="CTA-content">
+                <h2>
+                  Doe Agora
+                  <br />
+                </h2>
+                <p style={{ marginBottom: 10 }}>
+                  Escolha como quer fazer a sua doação:
+                  <br />
+                  <br />
+                  <h3>Pix</h3>pix@institutomiriampinheiro.org.br
+                  <br />
+                  <br />
+                  <h3>Paypal</h3>
+                </p>
+                <VintageBox right={true} vintageTwo={true} position="relative">
+                  <Button>Doe aqui</Button>
+                </VintageBox>
+              </div>
+            </Col>
+            <Col xs={12} sm={6} lg={7}>
+              <div className="CTA-img">
+                <img src={image1} alt="img" />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </CTASectionWrapper>
+    </div>
   );
 };
 

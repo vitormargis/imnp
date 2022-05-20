@@ -3,7 +3,7 @@ import styled from "styled-components";
 const AboutSectionWrapper = styled.div`
   padding: 120px 0;
   position: relative;
-  background: #fbfbfb;
+  background: #fff;
   .section__particle {
     position: absolute;
     &.one {

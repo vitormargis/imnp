@@ -1,13 +1,11 @@
 import React from "react";
-import { FaSearch } from "react-icons/fa";
 
 import { Container, Row, Col } from "../../reusecore/Layout";
 import SectionTitle from "../../reusecore/SectionTitle";
 import Button from "../../reusecore/Button";
 import Particle from "../../reusecore/Particle";
 import VintageBox from "../../reusecore/VintageBox";
-
-import { FaPlay, FaDownload } from "react-icons/fa";
+import { Link as OnepageLink } from "react-scroll";
 
 import { BannerSectionWrapper, AboutSectionWrapper } from "./banner.style";
 import imgHero1 from "../../assets/images/hosting/banner/01.png";
@@ -50,7 +48,17 @@ const BannerHosting = () => {
                 trazendo amor, paz e esperança
               </p>
               <VintageBox right={true} vintageTwo={true} position="relative">
-                <Button>Saiba Mais</Button>
+                <Button>
+                  <OnepageLink
+                    to={"miriam"}
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={700}
+                  >
+                    Saiba Mais
+                  </OnepageLink>
+                </Button>
               </VintageBox>
             </AboutSectionWrapper>
           </Col>

@@ -10,10 +10,11 @@ import Features from "./sections/Features-hosting";
 import CTAHosting from "./sections/CTA-hosting";
 import Faq from "./sections/Faq-hosting";
 import Counters from "./sections/Counters";
-import Pricing from "./sections/Pricing";
+// import Pricing from "./sections/Pricing";
 import Testimonial from "./sections/Testimonial";
 import News from "./sections/News";
 import Contact from "./sections/Contact";
+import Miriam from "./sections/Miriam";
 import Footer from "./sections/Footer";
 
 import { GlobalStyle } from "./sections/app.style";
@@ -25,15 +26,16 @@ const Home = () => (
       <GlobalStyle />
       <Navigation />
       <Banner />
-      {/* <About />
-      <Pricing />
+      <Miriam />
+      <About />
+      {/* <Pricing /> */}
       <Features />
-      <CTAHosting />
       <Counters />
-      <Testimonial />
-      <Faq />
-      <News />
-      <Contact /> */}
+      <CTAHosting />
+      {/* <Testimonial /> */}
+      {/* <Faq /> */}
+      {/* <News /> */}
+      {/* <Contact /> */}
       <Footer />
     </Main>
   </ThemeProvider>

@@ -12,7 +12,7 @@ import FotterWrapper from "./footer.style";
 
 const Footer = () => {
   return (
-    <FotterWrapper>
+    <FotterWrapper id="contato">
       <img
         className="section__particle one"
         alt="img"
@@ -32,7 +32,7 @@ const Footer = () => {
                 <li>
                   <FiMail />
                   <a href="mailto:contact@appion.com">
-                    contato@institutomiriampinheiro.org.br/
+                    contato@institutomiriampinheiro.org.br
                   </a>
                 </li>
                 {/* <li>
@@ -43,15 +43,21 @@ const Footer = () => {
 
               <ul className="social">
                 <li>
-                  <span href="#">
-                    <a>
+                  <span>
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/Instituto-Miriam-Pinheiro-105630138727326"
+                    >
                       <FaFacebookF />
                     </a>
                   </span>
                 </li>
                 <li>
-                  <span href="#">
-                    <a>
+                  <span>
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/institutomiriampinheiro/"
+                    >
                       <FaInstagram />
                     </a>
                   </span>

@@ -119,11 +119,11 @@ export const BannerSectionWrapper = styled.div`
     animation: smooth-up-down 3s linear infinite;
   }
   .hero-img-block img {
-    width: 125%;
-    opacity: 0.2;
-    filter: blur(3px);
+    width: 120%;
+    opacity: 0.15;
+    filter: blur(0px);
     max-width: none !important;
-    margin: 100px 0 0 -10%;
+    margin: 50px 0 0 -10%;
   }
 
   /**
